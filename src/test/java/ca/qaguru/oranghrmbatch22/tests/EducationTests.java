@@ -20,7 +20,7 @@ public void addNewEducation() {
     educationPage.saveNewEducation("Level1");
     String uuid = UUID.randomUUID().toString();
     educationPage.saveNewEducation("level1"+uuid);
-    
+
 }
 }
 
