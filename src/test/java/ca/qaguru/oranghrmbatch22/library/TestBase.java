@@ -1,4 +1,4 @@
-package ca.qaguru.oranghrmbatch21.library;
+package ca.qaguru.oranghrmbatch22.library;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

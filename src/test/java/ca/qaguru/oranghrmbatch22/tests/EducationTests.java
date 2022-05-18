@@ -1,10 +1,10 @@
-package ca.qaguru.oranghrmbatch21.tests;
+package ca.qaguru.oranghrmbatch22.tests;
 
-import ca.qaguru.oranghrmbatch21.library.TestBase;
-import ca.qaguru.oranghrmbatch21.pages.EducationPage;
-import ca.qaguru.oranghrmbatch21.pages.HeaderPage;
-import ca.qaguru.oranghrmbatch21.pages.LoginPage;
-import ca.qaguru.oranghrmbatch21.pages.MenuOptions;
+import ca.qaguru.oranghrmbatch22.library.TestBase;
+import ca.qaguru.oranghrmbatch22.pages.EducationPage;
+import ca.qaguru.oranghrmbatch22.pages.HeaderPage;
+import ca.qaguru.oranghrmbatch22.pages.LoginPage;
+import ca.qaguru.oranghrmbatch22.pages.MenuOptions;
 import org.testng.annotations.Test;
 
 import java.util.UUID;
@@ -20,6 +20,7 @@ public void addNewEducation() {
     educationPage.saveNewEducation("Level1");
     String uuid = UUID.randomUUID().toString();
     educationPage.saveNewEducation("level1"+uuid);
+    
 }
 }
 
