@@ -7,7 +7,7 @@
             <class name="ca.qaguru.oranghrmbatch22.tests.EducationTests" />
             <class name="ca.qaguru.oranghrmbatch22.tests.LanguageTests" />
 
-            <class name="ca.qaguru.oranghrmbatch22.tests.JobCategoryTest"></class>
+
         </classes>
     </test>
 
@@ -16,7 +16,7 @@
         <classes>
             <class name="ca.qaguru.oranghrmbatch22.tests.EducationTests" />
             <class name="ca.qaguru.oranghrmbatch22.tests.LanguageTests" />
-            <class name="ca.qaguru.oranghrmbatch22.tests.JobCategoryTest"></class>
+            
         </classes>
     </test>
 

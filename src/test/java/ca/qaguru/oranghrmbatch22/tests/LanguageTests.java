@@ -15,14 +15,14 @@ public class LanguageTests extends TestBase{
      headerPage.selectMenu(MenuOptions.LANGUAGES);
      LanguagePage languagePage = new LanguagePage(driver);
 
-     languagePage.saveNewLanguage("Level1");
+     languagePage.saveNewLanguage("Malayalam");
      String uuid = UUID.randomUUID().toString();
-     languagePage.saveNewLanguage("level1"+uuid);
+     languagePage.saveNewLanguage("Malayalam"+uuid);
 
 
  }
-    @Test 
-    public void delNewLanguage(){
+    @Test
+    public void delChkLanguage(){
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login("admin", "admin123", true, null);
         HeaderPage headerPage = new HeaderPage(driver);
