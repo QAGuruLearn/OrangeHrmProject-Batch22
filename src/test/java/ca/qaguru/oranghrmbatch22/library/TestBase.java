@@ -11,15 +11,16 @@ public abstract class TestBase {
     protected WebDriver driver;
     protected String browser;
     protected final String BASE_URL = "https://opensource-demo.orangehrmlive.com";
+
     @BeforeSuite
-    public void beforeSuite(){
+    public void beforeSuite() {
         WebDriverManager.chromedriver().setup();
         WebDriverManager.firefoxdriver().setup();
     }
 
     @BeforeMethod
     @Parameters("browser")
-    public void beforeMethod(@Optional("chrome") String browser){
+    public void beforeMethod(@Optional("chrome") String browser) {
         this.browser = browser;
         System.out.println("Browser : " + browser);
         getDriver();
@@ -43,9 +44,10 @@ public abstract class TestBase {
         driver.manage().window().maximize();
         driver.get(BASE_URL);
     }
+
     @AfterMethod
-    public void afterMethod(){
+    public void afterMethod() {
         driver.quit();
     }
-
 }
+
